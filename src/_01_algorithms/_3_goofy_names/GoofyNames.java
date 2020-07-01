@@ -19,15 +19,34 @@ System.out.println(input.toUpperCase());
 		//    HINT: Use .length() to determine the number of characters in the String.
 for (int i = 0; i < input.length(); i++) {
 	
-	input.substring(beginIndex)
+String input1 = input.substring(i, i+1);
+	
+	if(i%2==0) {
+		
+		input1 = input1.toUpperCase();
+	}
+	
+	else if(i%2==1) {
+		
+	input1 =	input1.toLowerCase();
+	}
+goofyName+=input1;
+
 }
-			// 4. Create a String variable to store the next character of the name
+		
+JOptionPane.showMessageDialog(null, "Your goofy name is "+goofyName);
+
+
+
+
+
+
+// 4. Create a String variable to store the next character of the name
 			//    using .substring(start, end)
 			//    HINT: replace 'start' and 'end' to get String with character at i 
 			
 			// 5. Use MODULO to set this variable to upper case for EVEN characters
 			//    and lower case for ODD characters.
-
 			
 			// 6. ADD this String  (containing 1 char) to the goofyName String
 
