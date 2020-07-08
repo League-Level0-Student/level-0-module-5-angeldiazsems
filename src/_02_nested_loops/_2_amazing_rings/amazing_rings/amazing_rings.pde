@@ -1,9 +1,29 @@
-
+int x = 500;
+int x2point0 = 300;
+int y = 500;
 void setup() {
-  
+  size(1000,1000);
 }
 
 void draw() {
+  background(#359303);
+  
+  
+  
+  for (int i = 0; i < 8; i++) {
+    noFill();
+    ellipse(x-300,y,(500-i*65),(500-i*65));
+   ellipse(x+300,y,(500-i*65),(500-i*65));
+  }
+  
+  
+  
+  
+  
+  x+=5;
+  
+  
+  
   
   // Go to the recipe to run the demonstration before starting this program
   
