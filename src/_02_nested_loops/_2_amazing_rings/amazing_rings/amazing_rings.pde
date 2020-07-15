@@ -5,6 +5,7 @@ void setup() {
   size(1000,1000);
 }
 
+int direction = 1;
 void draw() {
   background(#359303);
   
@@ -12,17 +13,20 @@ void draw() {
   
   for (int i = 0; i < 8; i++) {
     noFill();
-    ellipse(x-300,y,(500-i*65),(500-i*65));
-   ellipse(x+300,y,(500-i*65),(500-i*65));
-  }
+   
+    ellipse(x,y,(500-i*65),(500-i*65));
   
+   ellipse(x2point0,y,(500-i*65),(500-i*65));
+
+}
+  x-=5*direction;
+ x2point0+=5*direction;
   
-  
-  
-  
-  x+=5;
-  
-  
+
+ rect(0,0,0,1000);
+ if(x<0||x>1000){
+direction*=-1;
+ }
   
   
   // Go to the recipe to run the demonstration before starting this program
