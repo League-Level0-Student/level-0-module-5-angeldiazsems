@@ -69,16 +69,30 @@ public static void main(String[] args) {
 	}
 	
 	
-	*/                     
+	                   
+	for (int i = 2008; i < 2021; i++) {
+		int age = i-2007+1-2;
+	JOptionPane.showMessageDialog(null, "In "+i +", I was "+age +" years old");
+ 	}
+	
+	 */ 
+	
+	
+	for (int i = 0; i < 3; i++) {
+		
+	
+		System.out.println();
+		
+		for (int j = 0; j < args.length; j++) {
+		System.out.println("0");
+		System.out.println("1");	
+		System.out.println("2");
+	}
 	
 	
 	
 	
-	
-	
-	
-	
-	
+	}
 	
 	
 	
