@@ -103,27 +103,52 @@ public static void main(String[] args) {
 	}
 	
 	
-	*/
 	
-	int hi = 1;
-	for (int i = 0; i < 10; i++) {
-		
+	
+	int hello = 1;
+for (int i = 0; i < 10; i++) {
 	
 	for (int j = 0; j < 10; j++) {
 		
+	System.out.print(hello);
+	hello++;
+	}
+System.out.println();	
+}
 	
+	
+	
+	
+	
+	
+	for (int i = 0; i < 6; i++) {
+		
+char e = '*';
+
+	
+for (int j = 0; j < i; j++) {
+
+	
+	System.out.print(e);
+
+	
+}
+	System.out.println();
 	}
 	
+	
+	*/
+	
+	
+	for (int i = 0; i < 100; i++) {
+		
+	System.out.println(100-i);
+	
+	
+	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
 	
 	
 	
