@@ -12,8 +12,8 @@ public static void main(String[] args) {
     skills.skill1();
     skills.skill2();
    skills.skill3();
-   // skills.skill4();
-   // skills.skill5();
+    skills.skill4();
+    skills.skill5();
 }
 
 	
@@ -53,7 +53,39 @@ JOptionPane.showMessageDialog(null, "the difference between the two numbers is "
 	
 }
 
+void skill4() {
+	
+	String input = JOptionPane.showInputDialog("What city do you live in");
+	if(input .equals ("San Diego")) {	
+		JOptionPane.showMessageDialog(null, "you live in americas fineist city");
+	}
+	else {	
+		JOptionPane.showMessageDialog(null, "move to san diego");
+	}
+	
+	int cars = 3;
+	if(cars == 0) {
+		
+		JOptionPane.showMessageDialog(null, "I bet you use public transportion");
+	}
 
+	else if(cars == 1) {
+	
+	JOptionPane.showMessageDialog(null, " the maker of your is cody sauer, and the model the colby 3000");
+	}
+	else if(cars<1) {
+		
+		JOptionPane.showMessageDialog(null, "Your cars have "+cars*4+ " wheels");
+	}
+}
+
+void skill5() {
+	String input = JOptionPane.showInputDialog("whats the name of your school");
+
+	JOptionPane.showMessageDialog(null, input+" is a fantastic school");
+	
+	
+}
 
 
 
